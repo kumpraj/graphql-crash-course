@@ -15,8 +15,8 @@ type Author {
     verified: Boolean!
 }
 type Query {
-   reviews: [Reviews]!
-   game(): [Game]
-   author(): Author 
+   reviews: [Review]!
+   games: [Game]
+   authors: [Author]
 }
 `

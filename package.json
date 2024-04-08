@@ -4,14 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Prajwal Kumar <kumpraj@gmail.com>",
   "license": "ISC",
   "type": "module",
   "dependencies": {
     "@apollo/server": "^4.10.2",
     "graphql": "^16.8.1"
-  }
+  },
+  "repository": "https://github.com/kumpraj/graphql-crash-course.git"
 }
